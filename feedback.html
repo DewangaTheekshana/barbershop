@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>BabaerShop || Feedback</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/x-icon" href="37614-fotor-20230720231721.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+        $(".loader").fadeOut("slow");
+      })
+    </script>
+
+	</head>
+	<body>
+
+		<div class="loader"></div>
+
+    <style>
+	
+      .loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('3dgifmaker13300.gif') 50% 50% no-repeat rgb(249,249,249);
+      }
+      
+      </style>
+
+
+	  
+	<section class="ftco-section">
+
+		<div onclick="index();" style="width: auto; height: auto; margin-top: 5%; margin-left: 5%; cursor: pointer;">
+			<img src="images/back.png">
+		  </div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center">
+					<div class="title-text">
+						<section class="wow animate__fadeInDown " data-wow-duration="2s" data-wow-delay="2s">
+						<p>CONTACT</p>
+					</section>
+					<section class="wow animate__fadeInDown " data-wow-duration="2s" data-wow-delay="2s">
+						<h1 style="color: black; font-weight: bold;">Visit Shot Today</h1>
+					</section>
+					  </div>
+				</div>
+			</div>
+
+			<section class="wow animate__fadeInUp " data-wow-duration="2s" data-wow-delay="2s">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-md-7 d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Feedback</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" action="authentication.php" >
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-dark">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap bg-dark w-100 p-lg-5 p-4">
+									<h3 class="mb-4 mt-md-4">Contact us</h3>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Address:</span> 656 Lake Rd, Boralesgamuwa 10290</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Phone:</span> <a href="tel://1234567920">+94 763 057 865</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">BarberShop@gamail.com</a></p>
+					          </div>
+				          </div>
+				        	<!-- <div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+					          </div>
+				          </div> -->
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+	</section>
+
+	<br>
+	<br>
+	<br>
+
+	<!-- footer -->
+
+	<section class="wow animate__backInUp mt-5" data-wow-duration="2s" data-wow-delay="0s" id="contact" style="background-image: url(footer-img.jpg);">
+		<div class="title-text">
+		<section class="wow animate__fadeInDown " data-wow-duration="1s" data-wow-delay="2s">
+		  <p>CONTACT</p>
+		</section>
+		<section class="wow animate__fadeInDown " data-wow-duration="2s" data-wow-delay="2s">
+		  <h1 style="color: white; font-weight: bold;">Visit Shot Today</h1>
+		</section>
+		</div>
+		<div class="footer-row">
+		  <div class="footer-left">
+		  <section class="wow animate__fadeInLeft " data-wow-duration="1s" data-wow-delay="2s">
+			<h1>Opening Hours</h1>
+		  </section>
+		  <section class="wow animate__fadeInLeft " data-wow-duration="2s" data-wow-delay="2s">
+			<p>Monday to Sunday - 09am to 09pm</p>
+		  </section>
+		  <section class="wow animate__fadeInLeft " data-wow-duration="3s" data-wow-delay="2s">
+			<p class="fw-bold" style=" color: white;
+			  font-size: 30px;
+			  -webkit-text-stroke-width: 1px;
+			  -webkit-text-stroke-color: red;">Closed on holidays</p>
+			<!-- <p>saturday And Sunday - 12am to 3pm</p> -->
+		  </section>
+		  </div>
+		  <div class="footer-right">
+		  <section class="wow animate__fadeInRight " data-wow-duration="1s" data-wow-delay="2s">
+			<h1>Saloon Ditails</h1>
+		  </section>
+		  <section class="wow animate__fadeInRight " data-wow-duration="2s" data-wow-delay="2s">
+			<p>656 Lake Rd, Boralesgamuwa 10290</p>
+		  </section>
+		  <section class="wow animate__fadeInRight " data-wow-duration="3s" data-wow-delay="2s">
+			<p>BarberShop@gamail.com</p>
+		  </section>
+		  <section class="wow animate__fadeInRight " data-wow-duration="4s" data-wow-delay="2s">
+			<p>+94 763 057 865</p>
+		  </section>
+		  </div>
+		</div>
+	
+		<div class="social-links" style="color: white;">
+		<section class="wow animate__lightSpeedInLeft " data-wow-duration="2s" data-wow-delay="3s">
+		  <i class="bi bi-facebook link"></i>
+		  <i class="bi bi-linkedin"></i>
+		</section>
+		<section class="wow animate__lightSpeedInRight " data-wow-duration="2s" data-wow-delay="3s">
+		  <!-- <i class="bi bi-phone"></i>
+			<i class="bi bi-mailbox"></i> -->
+		  <p style="font-size: 20px;">Copyrigthe &copy; Hair Studio</p>
+		</section>
+		</div>
+	  </section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+	new WOW().init();
+  </script>
+
+  <script src="script.js"></script>
+	</body>
+</html>
+
